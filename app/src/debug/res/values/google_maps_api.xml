@@ -1,0 +1,18 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=FE:9C:25:03:17:B8:4B:A0:6D:3F:F2:D1:2D:F9:13:F6:5C:D4:9D:6B%3Bcom.marcohern.atlas
+
+    You can also add your credentials to an existing key, using this line:
+    FE:9C:25:03:17:B8:4B:A0:6D:3F:F2:D1:2D:F9:13:F6:5C:D4:9D:6B;com.marcohern.atlas
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" translatable="false" templateMergeStrategy="preserve">
+        AIzaSyDS1TwUu4nsJCNF7eItvggVqmLMcAKCHsw
+    </string>
+</resources>
