@@ -23,6 +23,7 @@ public class Provider {
         categories.add(new Category(1, "Banks"));
         categories.add(new Category(2, "Cattle"));
         categories.add(new Category(3, "Katarn"));
+        categories.add(new Category(4, "Guideon"));
         return categories;
     }
 }
