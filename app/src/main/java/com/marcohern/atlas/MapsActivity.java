@@ -3,6 +3,7 @@ package com.marcohern.atlas;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import android.widget.GridView;
 import android.widget.ListView;
 
 import com.google.android.gms.maps.CameraUpdate;
@@ -21,7 +22,7 @@ import java.util.List;
 public class MapsActivity extends ActionBarActivity {
 
     private GoogleMap mMap; // Might be null if Google Play services APK is not available.
-    private ListView lvCategories;
+    private GridView lvCategories;
     private List<Category> categories;
     private CategoryButtonsAdapter catAdapter;
 
@@ -37,7 +38,7 @@ public class MapsActivity extends ActionBarActivity {
         categories = Provider.getCategories();
         catAdapter = new CategoryButtonsAdapter(this, categories);
 
-        lvCategories = (ListView)findViewById(R.id.left_drawer);
+        lvCategories = (GridView)findViewById(R.id.left_drawer);
         lvCategories.setAdapter(catAdapter);
     }
 

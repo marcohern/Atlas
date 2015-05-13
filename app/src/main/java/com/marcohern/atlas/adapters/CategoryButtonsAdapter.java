@@ -60,7 +60,7 @@ public class CategoryButtonsAdapter implements ListAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
         if (convertView == null) {
             LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            convertView = inflater.inflate(R.layout.activity_maps_drawer_left, parent, false);
+            convertView = inflater.inflate(R.layout.button_category, parent, false);
         }
 
         return convertView;

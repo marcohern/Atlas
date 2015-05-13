@@ -3,9 +3,11 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <GridView
+    <Button
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/gvGrid"
-        android:numColumns="3" />
+        android:layout_height="85dp"
+        android:text="New Button"
+        android:id="@+id/button"
+        android:background="@drawable/buttonshape"
+        android:textColor="#ffffffff" />
 </LinearLayout>
